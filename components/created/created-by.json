@@ -2,14 +2,15 @@
   "collectionName": "components_created_created_bies",
   "info": {
     "name": "CreatedBy",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Author": {
+    "author": {
       "type": "string"
     },
-    "Date": {
+    "date": {
       "type": "date"
     }
   }

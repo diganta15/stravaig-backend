@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "Post"
+    "name": "Post",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "CoverImage": {
+    "coverImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -26,16 +27,19 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Subtext": {
+    "subtext": {
       "type": "text"
     },
-    "MainBody": {
+    "mainBody": {
       "type": "richtext"
     },
-    "CreatedBy": {
+    "createdBy": {
       "type": "component",
       "repeatable": false,
       "component": "created.created-by"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
