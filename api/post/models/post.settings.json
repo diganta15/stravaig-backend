@@ -44,6 +44,9 @@
     "category": {
       "via": "posts",
       "model": "category"
+    },
+    "keywords": {
+      "type": "text"
     }
   }
 }
